@@ -1,0 +1,93 @@
+﻿<DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Меню игры</title>
+    <style>
+        body {
+            background: url(../images/space1.jpg);
+        }
+        .menu {
+            height: 500px;
+            width: 700px;
+            display: block;
+            margin: auto;
+            text-align: center;
+            padding: 5px;
+            font-size: 30px;
+            color: white;
+            font-style: oblique;
+        }
+        .caption {
+            padding: 5px;
+            background-color: black;
+            margin: -5px;
+        }
+        .play {
+            padding: 5px;
+            margin: 20px;
+            background-color: black;
+            border-radius: 20px;
+        }
+		.age {
+			bottom: 0px;
+			right: 20px;
+			position: absolute;
+			color: red;
+			font-size: 30px;
+			font-style: oblique;
+		}
+		.instruction {
+			top: 10px;
+			left: 20px;
+			position: absolute;
+			color: red;
+			font-size: 40px;
+			font-style: oblique;
+		}
+        .play:hover {
+                padding: 5px;
+                margin: 10px;
+                margin-top: 25px;
+                background-color: red;
+        }
+        .aboutcap {
+            padding: 2px;
+            background-color: black;
+            margin: -5px;
+        }
+    </style>
+</head>
+<body>
+	<div class="age">
+    <h1>14+</h1>
+	</div>
+    <div class="menu">
+        <div class="caption">
+            <h1>NEED SPACE</h1>
+        </div>
+        <div class="play" onclick ="document.location='choose_menu.html'">
+            <h2>Играть</h2>
+        </div>
+        <div class="play" onclick="document.location='about.html'">
+            <h2>Об игре</h2>
+        </div>
+	<div class="instruction">
+					<div align="left"> <b>W | Вверх</b> - <span class="red">move up</span> </div>
+					<div align="left"> <b>A | Налево</b> - <span class="red">move left</span> </div>
+					<div align="left"> <b>S | Вниз</b> - <span class="red">move down</span> </div>
+					<div align="left"> <b>D | Направо</b> - <span class="red">move right</span> </div>
+					<div align="left"> <b>ESC | Пауза</b> - <span class="red">Pause</span> </div>
+					<div class="red">
+						<p id = "score_hub"></p>
+						<span class="red"></span>
+					</div>
+				</div>
+    <div class="aboutcap">
+        <h4>Калужский техникум электронных приборов</h4>
+    </div>
+    </div>
+    <embed src="../audio/menu.mp3" autostart=false loop=false hidden="true">
+</body>
+</html>
+</DOCTYPE>

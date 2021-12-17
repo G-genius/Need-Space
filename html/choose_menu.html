@@ -1,0 +1,81 @@
+<DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Options</title>
+        <style>
+            body {
+                background: url(../images/space1.jpg);
+            }
+            .menu {
+                height: 500px;
+                width: 700px;
+                display: block;
+                margin: auto;
+                text-align: center;
+                padding: 5px;
+                font-size: 30px;
+                color: white;
+                font-style: oblique;
+                }
+            .play {
+            padding: 5px;
+            margin: 20px;
+            background-color: black;
+            border-radius: 20px;
+        }
+            .caption {
+                padding: 5px;
+                background-color: black;
+                margin: -5px;
+            }
+            .save {
+                padding: 5px;
+                margin: 20px;
+                background-color: black;
+            }
+            h3{
+                margin-left: -350px;
+            }
+            .play:hover {
+                padding: 5px;
+                margin: 10px;
+                margin-top: 25px;
+                background-color: red;
+        }
+            .back {
+                padding: 5px;
+                margin: 20px;
+                background-color: black;
+                border-radius: 20px;
+            }
+            .colors{
+                margin-top: -30px;
+                margin-left: 250px;
+            }
+            .optcolor {
+                background-color: #000080;
+}
+    </style>
+</head>
+<body>
+
+<div class="menu">
+    <div class="caption">
+        <h1>Выбор уровня</h1>
+    </div>
+    <div class="play" onclick ="document.location= 'game1.html'">
+        <h2>1 уровень</h2>
+    </div>
+    <div class="play" onclick ="document.location= 'game2.html'">
+        <h2>2 уровень</h2>
+    </div>
+    <div class="play" onclick ="document.location= 'game3.html'">
+        <h2>3 уровень</h2>
+    </div>
+    <div class="play" onclick="document.location= 'menu.html'">
+        <h2>Вернуться в главное меню</h2>
+    </div>
+    <embed src="../audio/menu.mp3" autostart=false loop=false hidden="true">
+</div>
+</body>

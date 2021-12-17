@@ -1,0 +1,67 @@
+<DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>MENU games</title>
+        <style>
+            body {
+                background: url(../images/space1.jpg);
+            }
+
+            .menu {
+                height: 400px;
+                width: 700px;
+                display: block;
+                margin: auto;
+                text-align: center;
+                padding: 5px;
+                font-size: 30px;
+                color: white;
+                font-style: oblique;
+            }
+            
+            .caption {
+                padding: 5px;
+                background-color: black;
+                margin: -5px;
+            }
+            
+            .back {
+                padding: 5px;
+                margin: 20px;
+                background-color: black;
+                border-radius: 20px;
+            }
+            
+            .back:hover {
+                padding: 5px;
+                margin: 10px;
+                margin-top: 25px;
+                background-color: red;
+                }
+
+            .optcolor {
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menu">
+            <div class="caption">
+                <h1>Информация</h1>
+            </div>
+            
+            <div class="back" onclick="document.location= 'F:/Игра/Сценарий игры.docx'">
+                <h2>Открыть сценарий</h2> </div>
+            <div class="back" onclick="document.location= 'menu.html'">
+                <h2>Вернуться в главное меню</h2> </div>
+                <div class="optcolor">
+                    <h5>Разработчики:&it;Шершнев Андрей, Лобанов Виталий &it;</h5>
+                </div>
+                
+            
+            <!--<p><a href="Сценарий.docx" target="_blank"
+            title="Открыть сценарий"></a></p>-->
+<script src="game.js" type="text/javascript"></script>
+</body>
+</html>

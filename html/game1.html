@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Need Space 1 level"</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+	<body>
+		<div class="top">
+			<div class="wrapper">
+				<div class="instructions">
+					<div> <b>W | Вверх</b> - <span class="red">move up</span> </div>
+					<div> <b>A | Налево</b> - <span class="red">move left</span> </div>
+					<div> <b>S | Вниз</b> - <span class="red">move down</span> </div>
+					<div> <b>D | Направо</b> - <span class="red">move right</span> </div>
+					<div> <b>ESC | Пауза</b> - <span class="red">Pause</span> </div>
+					<div class="red">
+						<p id = "score_hub"></p>
+						<span class="red"></span>
+					</div>
+				</div>
+
+			<canvas width="0" height="0" class="canvas" id="canvas">Your browser does not support JavaScript and HTML5!</canvas>
+			<input type="button" style="position: absolute; width: 100px; height: 40px; bottom: 0; left: 0; font-size: 20px; background-color: red; font-style: oblique; color: white;" onclick="document.location = 'choose_menu.html';"
+				   value="Назад">
+			<input type="button" style="position: absolute; width: 100px; height: 40px; bottom: 0; right: 1720px; font-size: 20px; background-color: red; font-style: oblique; color: white; " onclick="document.location = 'game1.html';"
+				   value="Заново">
+			
+			
+
+			</div>
+		</div>
+		<embed src="../audio/1level.mp3" autostart=false loop=false hidden="true">
+			<h1 id="PauseMenu">Пауза</h1>
+		<script src="../js/game1.js"></script>
+	</body>
+</html>
